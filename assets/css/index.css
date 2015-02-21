@@ -1,20 +1,17 @@
 html {
     height: 100%;
-    width: 800px;
     background-color: rgb(228,100,53);
 }
 body {
     height: 100%;
-    width: 800px;
     font-family: 'Roboto', sans-serif;
 }
 a, a:link, a:visited, a:hover {
     color:white;   
     text-decoration:none;
-    text-shadow: 0px -3px 7px rgba(150, 150, 150, 1);     
     font-weight: 300;
 }
-.wrapper {
+.jumbotron {
     min-height: 100%;
     height: auto !important;
     height: 100%;
@@ -22,33 +19,32 @@ a, a:link, a:visited, a:hover {
 }
 .logo-header {
     background-color: rgb(228,100,53);
-
 }
 .middle-body {
     background-color: #FFFFFF;
     font-weight: 400;
 }
-#logoimg { 
-    width:500px;
-    height:150px;
-}
-#nav {
+.nav-navbar-nav {
     padding: 20px;
     background:black;
+    text-align: center;
 }
-#nav li {
+.nav-navbar-nav li {
     display: inline;
     list-style-type: none;
     padding-top: 5px;
     padding-bottom: 5px;
     color: white;
-
 }
-#nav li a {
+.nav-navbar-nav li a {
     padding: .3em 4em;
 }
-#menu li a:hover{
+.nav-navbar-nav li a:hover{
     color:white;       
     text-decoration:none;
     background:rgb(228,100,53); 
+}
+
+.table-sortable tbody tr {
+    cursor: move;
 }
