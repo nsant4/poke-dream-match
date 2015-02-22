@@ -14,7 +14,7 @@
 <body class="body-noise">
 
   <?php 
-    require("/php/navigation.php");
+    require_once("php_ui/navigation.php");
     nav();
   ?>
 
